@@ -67,6 +67,15 @@
                             </div>
                         </div>
 
+                        <div class="row">
+                            <div class="col">
+                                <label>IP Address</label>
+                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" TextMode="SingleLine" Rows="1"></asp:TextBox>
+                                
+                            </div>
+
+                        </div>
+
 
                     </div>
                 </div>
