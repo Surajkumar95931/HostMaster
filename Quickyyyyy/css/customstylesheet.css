@@ -1,0 +1,254 @@
+/*header css start*/
+
+/*header css end*/
+/* Footer links */
+.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+/* Footer sections */
+#footer1 {
+    background: #762b00;
+}
+
+#footer2 {
+    background: #531f00;
+}
+
+/* Section container */
+.section-container {
+    width: 98vw; /* Full width of the viewport */
+    height: 350px;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+/* Image styles */
+.img-fluid {
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+
+/* Text alignment within container */
+.a1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    /* Heading styles */
+    .a1 h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+/* Subheading styles */
+
+.sec-cor {
+    width: 98vw; /* Full width of the viewport */
+    height: 350px;
+    position: relative;
+    border-bottom: 2px solid white;
+}
+
+.b1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .b1 h3 {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left; /* Align the text to the left */
+    }
+
+/* CSS for Card Container */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* CSS for individual Card */
+.card {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* CSS for Card Body */
+.card-body {
+    flex: 1;
+    padding: 90px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Stack children vertically */
+}
+
+/* CSS for Card Title */
+.card-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* CSS for Card Text */
+.card-text {
+    font-size: 18px;
+    flex: 1; /* Take up remaining space */
+}
+
+/* CSS for Hover Effect */
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: inherit;
+}
+
+/*section tag*/
+/* Section styling */
+.content-section {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 80vh; /* Adjust the height as needed */
+    background-color: gainsboro
+}
+
+
+/* Div styling */
+.content {
+    text-align: center;
+    font-size: 38px;
+}
+/* Paragraph text styling */
+.paragraph-text {
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+}
+/*login form css*/
+/* CSS for login form */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    border-color: chocolate;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-container .form-group {
+        margin-bottom: 15px;
+    }
+
+    .login-container label {
+        display: block;
+        font-weight: bold;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .login-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-container button:active {
+            background-color: #0056b3;
+            transform: translateY(1px);
+        }
+
+/* Style for the login form container */
+.login-container {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the login form heading */
+.login-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for form labels */
+.login-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for form input fields */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for the login button */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .login-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Style for the error message label */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Style for the registration form container */
