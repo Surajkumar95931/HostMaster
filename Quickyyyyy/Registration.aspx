@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
         <h2>User Registration</h2>
-        <div>
+        <div class="regis1">
             <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
             <br />
             <asp:TextBox ID="txtUsername" runat="server" Required="true"></asp:TextBox>

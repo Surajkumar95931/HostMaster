@@ -5,21 +5,15 @@
 <head runat="server">
     <title></title>
 
-    <!--**Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
     <link href="datatables/css/dataTables.dataTables.min.css" rel="stylesheet" />
-
     <link href="fontawesome/css/all.css" rel="stylesheet" />
     <link href="css/customstylesheet.css" rel="stylesheet" />
 
-
     <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
-
     <script src="bootstrap/js/popper.min.js"></script>
-
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -31,8 +25,8 @@
             <nav class="navbar navbar-expand-lg navbar-light">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#nvbarSupportedContent" aria-controls="navbarSupportedContent"
-                    ariaexpads="false" aria-label="Toggle nevigation">
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -41,69 +35,37 @@
                         <li class="nav-item active">
                             <a class="nav-link active" aria-current="page" href="homepage.aspx">Home</a>
                         </li>
-
                         <li class="nav-item active">
                             <a class="nav-link" href="About_Us.aspx">About Us</a>
                         </li>
-
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Terms</a>
                         </li>
-
-                        <!--<li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>-->
                     </ul>
 
-                    <ul class="navbar-nav">
-                   <!--     <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton4" runat="server">Dynamic DNS</asp:LinkButton>
-                        </li>-->
-                        <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
-                               Login
-                            </asp:LinkButton>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active" runat="server" id="liUsername" visible="false">
+                            <span class="nav-link" id="lblUsername" runat="server"></span>
                         </li>
-
-                        <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
-                                SignUp</asp:LinkButton>
+                        <li class="nav-item active" runat="server" id="liLogout" visible="false">
+                            <asp:LinkButton ID="LinkButtonLogout" CssClass="nav-link" runat="server" OnClick="LinkButtonLogout_Click">Logout</asp:LinkButton>
                         </li>
-
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton3" runat="server" Visible="false">LogOut</asp:LinkButton>
+                            <asp:LinkButton Class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Login</asp:LinkButton>
                         </li>
-
                         <li class="nav-item active">
-                            <asp:LinkButton Class="nav-link" ID="LinkButton5" runat="server" Visible="false">Hello User</asp:LinkButton>
+                            <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">SignUp</asp:LinkButton>
                         </li>
-
                     </ul>
-
-
                 </div>
-
             </nav>
-
         </div>
 
-        <!--*********Main Content PlaceHolder************-->
+        <!-- Main Content PlaceHolder -->
         <div>
-
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
         </div>
-
 
         <footer>
             <div id="footer1" class="container-fluid">
@@ -120,22 +82,18 @@
                             &nbsp;
                             <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Stay Connected</asp:LinkButton>
                             &nbsp;
-                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Why Us</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Why Us</asp:LinkButton>
                         </p>
-
                     </div>
-
                 </div>
             </div>
             <div id="footer2" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                        <p style="color: whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Quick Host</a></p>
+                        <p style="color: whitesmoke">&copy; All rights Reserved. <a class="footerlinks" href="#" target="_blank">HostMaster</a></p>
                     </div>
                 </div>
             </div>
-
-
         </footer>
 
     </form>
