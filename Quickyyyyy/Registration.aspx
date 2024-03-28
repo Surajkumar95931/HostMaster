@@ -4,9 +4,10 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div>
-        <h2>User Registration</h2>
+    
+       
         <div class="regis1">
+             <h2>User Registration</h2>
             <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
             <br />
             <asp:TextBox ID="txtUsername" runat="server" Required="true"></asp:TextBox>
@@ -41,5 +42,5 @@
             <asp:Label ID="lblSuccess" runat="server" ForeColor="Green" Visible="false"></asp:Label>
             <asp:Label ID="lblError" runat="server" ForeColor="Red" Visible="false"></asp:Label>
         </div>
-    </div>
+   
 </asp:Content>

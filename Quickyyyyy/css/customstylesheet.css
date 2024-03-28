@@ -1,4 +1,19 @@
 /*header css start*/
+/* Custom CSS for navbar */
+.navbar {
+    background-color: midnightblue; /* Black background */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: orange !important; /* orange text on hover */
+    }
+
+/* Custom CSS for Site Header */
 
 /*header css end*/
 /* Footer links */
@@ -26,6 +41,7 @@
     height: 350px;
     position: relative;
     border-bottom: 2px solid white;
+    background-color:#f4f5ff;
 }
 
 /* Image styles */
@@ -39,17 +55,29 @@
 .a1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
     /* Heading styles */
     .a1 h1 {
-        color: white;
+        color: black;
         font-weight: bold;
-        font-size: 60px;
+        font-size: 50px;
     }
+.image-container {
+    flex: 1; /* Occupy remaining space */
+    text-align: right;
+   /* padding: 10px;*/ /* Add padding for spacing */
+   
+}
 
+.image {
+    max-width: 100%;
+    height: 349px;
+    object-fit:cover;
+    margin-left: 0px;
+}
 /* Subheading styles */
 
 .sec-cor {
@@ -57,22 +85,26 @@
     height: 350px;
     position: relative;
     border-bottom: 2px solid white;
+    background-color: #f4f5ff;
 }
 
 .b1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
 }
 
-    .b1 h3 {
-        color: white;
+.b1 h3 {
+        color: black;
         font-weight: bold;
         font-size: 16px;
         text-align: left; /* Align the text to the left */
     }
+image-sec{
+    object-fit:cover;
 
+}
 /* CSS for Card Container */
 .card-container {
     display: flex;
@@ -116,10 +148,11 @@
 
 /* CSS for Hover Effect */
 .card:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5), /* Orange shadow */
+    0 0 20px rgba(0, 0, 0, 0.5); /* Black shadow */
     transform: translateY(-5px);
-    box-shadow: inherit;
 }
+
 
 /*section tag*/
 /* Section styling */
@@ -144,3 +177,84 @@
     padding: 12px;
 }
 /*Login page cssssssssssss****************************************************************************/
+.login-container {
+    width: 300px; /* Adjust the width as needed */
+    margin: 50px auto; /* Center the container horizontally and add some space from the top */
+    padding: 20px;
+    background-color: #fff; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+    .login-container h2 {
+        margin-bottom: 20px; /* Add some space below the heading */
+    }
+
+    .login-container div {
+        margin-bottom: 20px; /* Add some space between elements */
+        padding-bottom: 10px;
+        padding-block-start: 15px; /* Adjust the top padding */
+    }
+
+    /* Hide label for screen readers */
+    .login-container label {
+        display: none;
+    }
+/*signup page **************************************************************************************************/
+.regis1 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+    .regis1 h2 {
+        text-align: center;
+    }
+
+    .regis1 label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .regis1 input[type="text"],
+    .regis1 input[type="password"],
+    .regis1 input[type="email"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+        .regis1 input[type="text"]:focus,
+        .regis1 input[type="password"]:focus,
+        .regis1 input[type="email"]:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+    .regis1 button {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .regis1 button:hover {
+            background-color: #0056b3;
+        }
+
+    .regis1 .error-message,
+    .regis1 .success-message {
+        text-align: center;
+        margin-top: 10px;
+    }
+

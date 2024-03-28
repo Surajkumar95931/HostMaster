@@ -50,7 +50,7 @@ namespace Quickyyyyy
 
                         // Set authentication cookie
                         System.Web.Security.FormsAuthentication.SetAuthCookie(email, false);
-                        Response.Redirect("abc.aspx");
+                        Response.Redirect("UserProfile.aspx");
                     }
                     else
                     {

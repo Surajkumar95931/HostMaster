@@ -1,23 +1,44 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="homepage.aspx.cs" Inherits="Quickyyyyy.homepage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-        <section class="section-container">
+    <!--<section class="section-container">
         <img src="imgs/1.jpg" class="img-fluid" />
         <div class="a1">
 
-            <h1>Host Your Website Here:-</h1>
+            <h1>Host Your Website</h1>
             
+        </div>
+    </section-->
+    <section class="section-container">
+        <div class="background-color" style="background-color: #f4f5ff;"></div>
+        <div class="a1">
+            <h1>
+                <span style="color: black;">Host Your Website</span>
+                <br />
+                <span style="color: #007bff;">at low price...</span>
+            </h1>
+        </div>
+        <div class="image-container">
+            <img src="imgs/bck.jpg" alt="Image" class="image" />
         </div>
     </section>
 
     <section class="sec-cor">
-        <img src="imgs/1.jpg" class="img-fluid" />
         <div class="b1">
-            <h3>Interested in Private, Secure and Anonymous Online Browsing?</h3>
+            <h1>
+                <span style="color: black;">Interested in Private, Secure and </span>
+                <br />
+                <span style="color: #007bff;">Anonymous Online Browsing?</span>
+            </h1>
+        </div>
+        <div class="image-sec">
+            <img src="imgs/claim-image.jpg" alt="Image" class="image" />
         </div>
     </section>
+
 
     <section class="card-container">
         <div class="card left">
@@ -30,7 +51,7 @@
         </div>
         <div class="card middle">
             <div class="card-body">
-                <h5 class="card-title" >Domain</h5>
+                <h5 class="card-title">Domain</h5>
                 <p class="card-text">
                     A Domain is a fundamental component of the internet infrastructure, providing a way to identify and access online resources. It plays a crucial role in web navigation, branding, and establishing an online presence for individuals, businesses, and organizations.
                 </p>
@@ -45,12 +66,12 @@
             </div>
         </div>
     </section>
-   <section class="content-section">
-    <div class="content">
-        <h2>What is Dynamic DNS?</h2>
-        <p class="paragraph-text">
-             Dynamic DNS makes a dynamic IP address act like it is a static IP address, meaning it does not change. It does this by utilizing a hostname and our Dynamic Update Client to keep your hostname updated with the correct IP address.
-        </p>
-    </div>
-</section>
+    <section class="content-section">
+        <div class="content">
+            <h2>What is Dynamic DNS?</h2>
+            <p class="paragraph-text">
+                Dynamic DNS makes a dynamic IP address act like it is a static IP address, meaning it does not change. It does this by utilizing a hostname and our Dynamic Update Client to keep your hostname updated with the correct IP address.
+            </p>
+        </div>
+    </section>
 </asp:Content>

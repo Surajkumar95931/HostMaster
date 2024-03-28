@@ -2202,6 +2202,10 @@
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="homepage.aspx" />
     <Content Include="imgs\1.jpg" />
+    <Content Include="imgs\23.jpg" />
+    <Content Include="imgs\bck.jpg" />
+    <Content Include="imgs\claim-image.jpg" />
+    <Content Include="imgs\new.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="UserProfile.aspx" />
