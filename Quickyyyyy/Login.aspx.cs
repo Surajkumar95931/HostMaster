@@ -7,8 +7,8 @@ namespace Quickyyyyy
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-        }
 
+        }
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             // Clear any previous error messages
@@ -50,7 +50,8 @@ namespace Quickyyyyy
 
                         // Set authentication cookie
                         System.Web.Security.FormsAuthentication.SetAuthCookie(email, false);
-                        Response.Redirect("UserProfile.aspx");
+                        // Response.Redirect("UserProfile.aspx");
+                        Response.Redirect("Hostname.aspx");
                     }
                     else
                     {

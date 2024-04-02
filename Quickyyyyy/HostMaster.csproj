@@ -2201,6 +2201,7 @@
     <Content Include="fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="homepage.aspx" />
+    <Content Include="Hostname.aspx" />
     <Content Include="imgs\1.jpg" />
     <Content Include="imgs\23.jpg" />
     <Content Include="imgs\bck.jpg" />
@@ -2208,6 +2209,7 @@
     <Content Include="imgs\new.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="ShowIP.aspx" />
     <Content Include="UserProfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -2233,6 +2235,13 @@
     <Compile Include="homepage.aspx.designer.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Hostname.aspx.cs">
+      <DependentUpon>Hostname.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hostname.aspx.designer.cs">
+      <DependentUpon>Hostname.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2247,6 +2256,13 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowIP.aspx.cs">
+      <DependentUpon>ShowIP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowIP.aspx.designer.cs">
+      <DependentUpon>ShowIP.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

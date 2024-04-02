@@ -5,7 +5,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-       
         <div class="regis1">
              <h2>User Registration</h2>
             <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
